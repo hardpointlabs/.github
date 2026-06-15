@@ -2,9 +2,9 @@
 
 > Tenant isolation infrastructure for SaaS — programmable network routing, per-tenant data placement, and sovereign database provisioning.
 
-**Documentation:** https://docs.hardpoint.dev  
-**Architecture:** https://docs.hardpoint.dev/platform-architecture
-**Who Hardpoint is for:** https://docs.hardpoint.dev/who-is-hardpoint-for
+* **Documentation:** https://docs.hardpoint.dev  
+* **Architecture:** https://docs.hardpoint.dev/platform-architecture
+* **Who Hardpoint is for:** https://docs.hardpoint.dev/who-is-hardpoint-for
 
 ---
 
