@@ -1,6 +1,6 @@
-# Hardpoint
+# Hardpoint Labs
 
-> Tenant isolation infrastructure for SaaS — programmable network routing, per-tenant data placement, and sovereign database provisioning.
+> The diskless document database
 
 * **Documentation:** https://docs.hardpoint.dev
 * **Architecture:** https://docs.hardpoint.dev/platform-architecture
