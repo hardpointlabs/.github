@@ -22,7 +22,11 @@
 
 ### Invar
 
-You can run Invar locally or in production yourself; all you need is the supplied container images
+You can run Invar locally or in production yourself; all you need is the supplied container images.
+
+| Repo | Description |
+|------|-------------|
+| [hardpointlabs/invar](https://github.com/hardpointlabs/invar) | The database itself |
 
 
 ### Integration point
@@ -40,12 +44,6 @@ These are not required for integration. They're published for transparency and b
 | [hardpointlabs/length-prefixed-stream](https://github.com/hardpointlabs/length-prefixed-stream) | Fork of a TypeScript varint-framing library, ported to pure TypeScript as an ES module. Exposes encoder/decoder as Node.js `Transform` implementations that compose directly with sockets and streams. |
 | [hardpointlabs/lpstream](https://github.com/hardpointlabs/lpstream) | Pure Go implementation of the same length-prefixed stream framing protocol. |
 | [hardpointlabs/maglev](https://github.com/hardpointlabs/maglev) | Fork of a Go implementation of Google's Maglev consistent hashing algorithm. Converted to a Go module, with expanded test coverage. Used internally. |
-
----
-
-## Security and verifiability
-
-The data path between the SDK and a database instance uses varint-framed, end-to-end encrypted messages. The framing protocol is implemented in [`length-prefixed-stream`](https://github.com/hardpointlabs/length-prefixed-stream) (TypeScript, SDK side) and [`lpstream`](https://github.com/hardpointlabs/lpstream) (Go, agent side). Publishing both framing libraries alongside the SDK and agent means you can verify independently that the protocol is end-to-end encrypted and that Hardpoint has no ability to inspect customer traffic in transit.
 
 ---
 
