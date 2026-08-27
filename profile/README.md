@@ -1,20 +1,16 @@
 # Hardpoint Labs
 
-> The diskless document database
+> Data infrastructure for massive multi-tenancy.
 
-* **Documentation:** https://docs.hardpoint.dev
-* **Architecture:** https://docs.hardpoint.dev/platform-architecture
-* **Who Hardpoint is for:** https://docs.hardpoint.dev/who-is-hardpoint-for
+**Product Documentation:** https://docs.hardpoint.dev
 
 ---
 
 ## Products
 
-**Invar** a lightweight open-source document database with Redis and incubating Mongo Wire Protocol compatibility.
-
-**Invar Cloud** fully managed Invar data platform
-
-**Hardpoint Enterprise** extends Invar Cloud with compliance-focused governance, security and audit features for customers deploying in on-prem/hybrid environments
+* **Invar:** a diskless document store with Redis™ compatibility
+* **Invar Cloud:** fully managed Invar data platform
+* **Hardpoint Enterprise:** extended infrastructure for Invar, supporting on-prem/hybrid environments, fleet management and compliance
 
 ---
 
@@ -26,14 +22,14 @@ You can run Invar locally or in production yourself; all you need is the supplie
 
 | Repo | Description |
 |------|-------------|
-| [hardpointlabs/invar](https://github.com/hardpointlabs/invar) | The database itself |
+| [hardpointlabs/invar](https://github.com/hardpointlabs/invar) | **Start here.** The database itself |
 
 
 ### Integration point
 
 | Repo | Description |
 |------|-------------|
-| [hardpointlabs/sdk](https://github.com/hardpointlabs/sdk) | **Start here.** TypeScript/JS SDK — the primary integration point for Invar Cloud. Supports Node.js (≥22), Bun, and Deno. Concrete integration examples and quickstarts live here. |
+| [hardpointlabs/sdk](https://github.com/hardpointlabs/sdk) | TypeScript/JS SDK — the primary integration point for Invar Cloud. Supports Node.js (≥22), Bun, and Deno. Concrete integration examples and quickstarts live here. |
 
 ### Adjacent open-source
 
