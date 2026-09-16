@@ -9,7 +9,6 @@
 ## Products
 
 * **Invar:** a diskless document store with Redis™ compatibility
-* **Invar Cloud:** fully managed Invar data platform
 * **Hardpoint Enterprise:** extended infrastructure for Invar, supporting on-prem/hybrid environments, fleet management and compliance
 
 ---
@@ -18,18 +17,11 @@
 
 ### Invar
 
-You can run Invar locally or in production yourself; all you need is the supplied container images.
+You can run Invar locally or in production yourself; all you need is a supplied container image or signed binary from one of our releases.
 
 | Repo | Description |
 |------|-------------|
 | [hardpointlabs/invar](https://github.com/hardpointlabs/invar) | **Start here.** The database itself |
-
-
-### Integration point
-
-| Repo | Description |
-|------|-------------|
-| [hardpointlabs/sdk](https://github.com/hardpointlabs/sdk) | TypeScript/JS SDK — the primary integration point for Invar Cloud. Supports Node.js (≥22), Bun, and Deno. Concrete integration examples and quickstarts live here. |
 
 ### Adjacent open-source
 
